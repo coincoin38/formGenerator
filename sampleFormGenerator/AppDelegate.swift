@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        StubsReader.SharedInstance.formFromFile(stubsConstants.kStubFirstForm, object: stubsConstants.kRootFirstForm) { (result) in
+        StubsReader.SharedInstance.formFromFile(StubsConstants.kStubFirstForm, object: StubsConstants.kRootFirstForm) { (result) in
             print(result)
         }
         return true

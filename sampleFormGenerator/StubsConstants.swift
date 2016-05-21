@@ -8,9 +8,9 @@
 
 import UIKit
 
-class stubsConstants: NSObject {
+class StubsConstants: NSObject {
 
     static let kExtensionJson = "json"
-    static let kStubFirstForm = "firstFormStub"
+    static let kStubFirstForm = "FirstFormStub"
     static let kRootFirstForm = "form"
 }
