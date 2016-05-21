@@ -1,22 +1,22 @@
 {
     "form": [
              {
-             "label": "1",
-             "type": "1",
-             "content": "1",
-             "optional": "1",
-             "style": "1",
-             "order": "1",
-             "hidden": "1"
+             "label": "Nom",
+             "type": 1,
+             "content": "Stark",
+             "optional": true,
+             "style": 0,
+             "order": 0,
+             "hidden": false
              },
              {
-             "label": "1",
-             "type": "1",
-             "content": "1",
-             "optional": "1",
-             "style": "1",
-             "order": "1",
-             "hidden": "1"
+             "label": "Prénom",
+             "type": 1,
+             "content": "Ned",
+             "optional": false,
+             "style": 0,
+             "order": 1,
+             "hidden": true
              }
              ]
 }
