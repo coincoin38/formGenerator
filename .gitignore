@@ -1,4 +1,3 @@
-# Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
@@ -43,7 +42,10 @@ playground.xcworkspace
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
-# Pods/
+Pods/
+
+#Podfile
+#Podfile.lock
 
 # Carthage
 #
@@ -61,3 +63,6 @@ Carthage/Build
 
 fastlane/report.xml
 fastlane/screenshots
+
+#Classes
+NetworkConstants.swift
