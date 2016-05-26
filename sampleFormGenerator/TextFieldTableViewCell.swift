@@ -11,7 +11,7 @@ import UIKit
 class TextFieldTableViewCell: UITableViewCell {
 
     @IBOutlet weak var cellLabel: UILabel!
-    @IBOutlet weak var contentLabel: UITextField!
+    @IBOutlet weak var contentTextField: UITextField!
 
     override func awakeFromNib() {
         super.awakeFromNib()

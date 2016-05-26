@@ -10,7 +10,6 @@
 		131C445F1CF078C1007C3D23 /* StubsReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C445E1CF078C1007C3D23 /* StubsReader.swift */; };
 		131C44631CF0793C007C3D23 /* StubsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C44621CF0793C007C3D23 /* StubsConstants.swift */; };
 		131C44661CF07A5C007C3D23 /* FirstFormStub.json in Resources */ = {isa = PBXBuildFile; fileRef = 131C44651CF07A5C007C3D23 /* FirstFormStub.json */; };
-		131C44691CF07FF5007C3D23 /* FormTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C44681CF07FF5007C3D23 /* FormTableViewController.swift */; };
 		131C44711CF08184007C3D23 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C446F1CF08184007C3D23 /* TextFieldTableViewCell.swift */; };
 		131C44721CF08184007C3D23 /* TextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 131C44701CF08184007C3D23 /* TextFieldTableViewCell.xib */; };
 		131C44751CF08204007C3D23 /* FirstCellObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C44741CF08204007C3D23 /* FirstCellObject.swift */; };
@@ -26,7 +25,6 @@
 		131C445E1CF078C1007C3D23 /* StubsReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubsReader.swift; sourceTree = "<group>"; };
 		131C44621CF0793C007C3D23 /* StubsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubsConstants.swift; sourceTree = "<group>"; };
 		131C44651CF07A5C007C3D23 /* FirstFormStub.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FirstFormStub.json; sourceTree = "<group>"; };
-		131C44681CF07FF5007C3D23 /* FormTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormTableViewController.swift; sourceTree = "<group>"; };
 		131C446F1CF08184007C3D23 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
 		131C44701CF08184007C3D23 /* TextFieldTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldTableViewCell.xib; sourceTree = "<group>"; };
 		131C44741CF08204007C3D23 /* FirstCellObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstCellObject.swift; sourceTree = "<group>"; };
@@ -66,9 +64,9 @@
 		131C445D1CF0785E007C3D23 /* formGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				382EAFA81CF6EC5E0080A633 /* Views */,
 				131C44731CF081CA007C3D23 /* Objects */,
 				131C446A1CF08040007C3D23 /* Cells */,
-				131C44671CF07FBB007C3D23 /* TableViewControllers */,
 				131C44641CF079F1007C3D23 /* Stubs */,
 				131C44611CF0791B007C3D23 /* Constants */,
 				131C44601CF07911007C3D23 /* Readers */,
@@ -98,14 +96,6 @@
 				131C44651CF07A5C007C3D23 /* FirstFormStub.json */,
 			);
 			name = Stubs;
-			sourceTree = "<group>";
-		};
-		131C44671CF07FBB007C3D23 /* TableViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				131C44681CF07FF5007C3D23 /* FormTableViewController.swift */,
-			);
-			name = TableViewControllers;
 			sourceTree = "<group>";
 		};
 		131C446A1CF08040007C3D23 /* Cells */ = {
@@ -155,6 +145,13 @@
 				13888D331CF0763300DBD85B /* Info.plist */,
 			);
 			path = sampleFormGenerator;
+			sourceTree = "<group>";
+		};
+		382EAFA81CF6EC5E0080A633 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		4967959CA7C4210FEBD60D18 /* Frameworks */ = {
@@ -290,7 +287,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				131C445F1CF078C1007C3D23 /* StubsReader.swift in Sources */,
-				131C44691CF07FF5007C3D23 /* FormTableViewController.swift in Sources */,
 				131C44631CF0793C007C3D23 /* StubsConstants.swift in Sources */,
 				131C44711CF08184007C3D23 /* TextFieldTableViewCell.swift in Sources */,
 				13888D2A1CF0763300DBD85B /* ViewController.swift in Sources */,
