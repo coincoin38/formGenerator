@@ -10,15 +10,6 @@ import UIKit
 import SwiftyJSON
 
 class StubsReader: NSObject {
-
-    enum typeForm: NSInteger {
-        case textFieldDefaultTypeForm
-        case textFieldMailTypeForm
-        case textFieldNumberTypeForm
-        case switchTypeForm
-        case pickerTypeForm
-        case firstForm
-    }
     
     static let SharedInstance = StubsReader()
 
