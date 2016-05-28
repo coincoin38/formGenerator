@@ -13,13 +13,14 @@
 		131C44711CF08184007C3D23 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C446F1CF08184007C3D23 /* TextFieldTableViewCell.swift */; };
 		131C44721CF08184007C3D23 /* TextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 131C44701CF08184007C3D23 /* TextFieldTableViewCell.xib */; };
 		131C44751CF08204007C3D23 /* FirstCellObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C44741CF08204007C3D23 /* FirstCellObject.swift */; };
+		135E91621CF9C3CB00D431EA /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135E91601CF9C3CB00D431EA /* SwitchTableViewCell.swift */; };
+		135E91631CF9C3CB00D431EA /* SwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 135E91611CF9C3CB00D431EA /* SwitchTableViewCell.xib */; };
 		13888D281CF0763300DBD85B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13888D271CF0763300DBD85B /* AppDelegate.swift */; };
 		13888D2A1CF0763300DBD85B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13888D291CF0763300DBD85B /* ViewController.swift */; };
 		13888D2D1CF0763300DBD85B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13888D2B1CF0763300DBD85B /* Main.storyboard */; };
 		13888D2F1CF0763300DBD85B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13888D2E1CF0763300DBD85B /* Assets.xcassets */; };
 		13888D321CF0763300DBD85B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13888D301CF0763300DBD85B /* LaunchScreen.storyboard */; };
 		13E600461CF9857700E10826 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E600441CF9857700E10826 /* FirstViewController.swift */; };
-		13E600471CF9857700E10826 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13E600451CF9857700E10826 /* FirstViewController.xib */; };
 		71CC2872F9ACCBD93A567DFC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2F35334F57EA16FD86EC40 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,8 @@
 		131C446F1CF08184007C3D23 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
 		131C44701CF08184007C3D23 /* TextFieldTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldTableViewCell.xib; sourceTree = "<group>"; };
 		131C44741CF08204007C3D23 /* FirstCellObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstCellObject.swift; sourceTree = "<group>"; };
+		135E91601CF9C3CB00D431EA /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		135E91611CF9C3CB00D431EA /* SwitchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchTableViewCell.xib; sourceTree = "<group>"; };
 		13888D241CF0763300DBD85B /* sampleFormGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleFormGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13888D271CF0763300DBD85B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13888D291CF0763300DBD85B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,7 +41,6 @@
 		13888D311CF0763300DBD85B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13888D331CF0763300DBD85B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13E600441CF9857700E10826 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		13E600451CF9857700E10826 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		CE2F35334F57EA16FD86EC40 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC75A7F9173712E570DF6D63 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		FB2454AC450EED3CDE7B1A7E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +109,8 @@
 			children = (
 				131C446F1CF08184007C3D23 /* TextFieldTableViewCell.swift */,
 				131C44701CF08184007C3D23 /* TextFieldTableViewCell.xib */,
+				135E91601CF9C3CB00D431EA /* SwitchTableViewCell.swift */,
+				135E91611CF9C3CB00D431EA /* SwitchTableViewCell.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -155,7 +159,6 @@
 			isa = PBXGroup;
 			children = (
 				13E600441CF9857700E10826 /* FirstViewController.swift */,
-				13E600451CF9857700E10826 /* FirstViewController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -230,8 +233,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				131C44661CF07A5C007C3D23 /* FirstFormStub.json in Resources */,
-				13E600471CF9857700E10826 /* FirstViewController.xib in Resources */,
 				13888D321CF0763300DBD85B /* LaunchScreen.storyboard in Resources */,
+				135E91631CF9C3CB00D431EA /* SwitchTableViewCell.xib in Resources */,
 				131C44721CF08184007C3D23 /* TextFieldTableViewCell.xib in Resources */,
 				13888D2F1CF0763300DBD85B /* Assets.xcassets in Resources */,
 				13888D2D1CF0763300DBD85B /* Main.storyboard in Resources */,
@@ -294,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				131C445F1CF078C1007C3D23 /* StubsReader.swift in Sources */,
+				135E91621CF9C3CB00D431EA /* SwitchTableViewCell.swift in Sources */,
 				131C44631CF0793C007C3D23 /* StubsConstants.swift in Sources */,
 				13E600461CF9857700E10826 /* FirstViewController.swift in Sources */,
 				131C44711CF08184007C3D23 /* TextFieldTableViewCell.swift in Sources */,

@@ -12,7 +12,7 @@ class ViewController: FirstViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView?.registerNib(UINib(nibName: cellXib, bundle: nil), forCellReuseIdentifier: cellIdentifier)
+        nibRegister()
         StubsReader.SharedInstance.formFromFile(StubsConstants.kStubFirstForm, object: StubsConstants.kRootFirstForm) { (result) in
             self.contentJson = result
         }

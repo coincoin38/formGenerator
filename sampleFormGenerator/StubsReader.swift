@@ -12,7 +12,7 @@ import SwiftyJSON
 class StubsReader: NSObject {
 
     enum typeForm: NSInteger {
-        case textFieldDefaultTypeForm = 1
+        case textFieldDefaultTypeForm
         case textFieldMailTypeForm
         case textFieldNumberTypeForm
         case switchTypeForm
