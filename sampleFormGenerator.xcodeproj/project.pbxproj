@@ -12,7 +12,7 @@
 		131C44661CF07A5C007C3D23 /* FirstFormStub.json in Resources */ = {isa = PBXBuildFile; fileRef = 131C44651CF07A5C007C3D23 /* FirstFormStub.json */; };
 		131C44711CF08184007C3D23 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C446F1CF08184007C3D23 /* TextFieldTableViewCell.swift */; };
 		131C44721CF08184007C3D23 /* TextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 131C44701CF08184007C3D23 /* TextFieldTableViewCell.xib */; };
-		131C44751CF08204007C3D23 /* FirstCellObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C44741CF08204007C3D23 /* FirstCellObject.swift */; };
+		131C44751CF08204007C3D23 /* FormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C44741CF08204007C3D23 /* FormModel.swift */; };
 		135E91621CF9C3CB00D431EA /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135E91601CF9C3CB00D431EA /* SwitchTableViewCell.swift */; };
 		135E91631CF9C3CB00D431EA /* SwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 135E91611CF9C3CB00D431EA /* SwitchTableViewCell.xib */; };
 		13888D281CF0763300DBD85B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13888D271CF0763300DBD85B /* AppDelegate.swift */; };
@@ -30,7 +30,7 @@
 		131C44651CF07A5C007C3D23 /* FirstFormStub.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FirstFormStub.json; sourceTree = "<group>"; };
 		131C446F1CF08184007C3D23 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
 		131C44701CF08184007C3D23 /* TextFieldTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldTableViewCell.xib; sourceTree = "<group>"; };
-		131C44741CF08204007C3D23 /* FirstCellObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstCellObject.swift; sourceTree = "<group>"; };
+		131C44741CF08204007C3D23 /* FormModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormModel.swift; sourceTree = "<group>"; };
 		135E91601CF9C3CB00D431EA /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
 		135E91611CF9C3CB00D431EA /* SwitchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchTableViewCell.xib; sourceTree = "<group>"; };
 		13888D241CF0763300DBD85B /* sampleFormGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleFormGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,7 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				382EAFA81CF6EC5E0080A633 /* ViewControllers */,
-				131C44731CF081CA007C3D23 /* Objects */,
+				131C44731CF081CA007C3D23 /* Model */,
 				131C446A1CF08040007C3D23 /* Cells */,
 				131C44641CF079F1007C3D23 /* Stubs */,
 				131C44611CF0791B007C3D23 /* Constants */,
@@ -115,12 +115,12 @@
 			name = Cells;
 			sourceTree = "<group>";
 		};
-		131C44731CF081CA007C3D23 /* Objects */ = {
+		131C44731CF081CA007C3D23 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				131C44741CF08204007C3D23 /* FirstCellObject.swift */,
+				131C44741CF08204007C3D23 /* FormModel.swift */,
 			);
-			name = Objects;
+			name = Model;
 			sourceTree = "<group>";
 		};
 		13888D1B1CF0763300DBD85B = {
@@ -303,7 +303,7 @@
 				131C44711CF08184007C3D23 /* TextFieldTableViewCell.swift in Sources */,
 				13888D2A1CF0763300DBD85B /* ViewController.swift in Sources */,
 				13888D281CF0763300DBD85B /* AppDelegate.swift in Sources */,
-				131C44751CF08204007C3D23 /* FirstCellObject.swift in Sources */,
+				131C44751CF08204007C3D23 /* FormModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
