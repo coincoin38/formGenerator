@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TextFieldTableViewCell: UITableViewCell {
+class TextFieldTableViewCell: UITableViewCell{
 
     @IBOutlet weak var cellLabel: UILabel!
     @IBOutlet weak var contentTextField: UITextField!
@@ -24,4 +24,10 @@ class TextFieldTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    func setDataForCell(data:Form,tag:Int,textFieldDelegate:UITextFieldDelegate){
+        cellLabel.text = data.label
+        contentTextField.text = data.content
+        contentTextField.tag = tag
+        contentTextField.delegate = textFieldDelegate
+    }
 }
