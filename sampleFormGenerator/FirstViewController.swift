@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SwiftyJSON
 
 class FirstViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
     
@@ -18,16 +17,7 @@ class FirstViewController: UIViewController,UITableViewDelegate,UITableViewDataS
     let cellSwitchIdentifier    = "SwitchTableViewCellIdentifier"
     let cellSwitchXib           = "SwitchTableViewCell"
     
-    var contentJson :JSON?
-    
-    enum typeForm: NSInteger {
-        case textFieldDefaultTypeForm = 1
-        case textFieldMailTypeForm
-        case textFieldNumberTypeForm
-        case switchTypeForm
-        case pickerTypeForm
-        case firstForm
-    }
+    var contentJson : Array<Form>?
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -47,8 +37,8 @@ class FirstViewController: UIViewController,UITableViewDelegate,UITableViewDataS
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
        
         let cell = tableView.dequeueReusableCellWithIdentifier(cellTextFieldIdentifier, forIndexPath: indexPath) as! TextFieldTableViewCell
-        cell.cellLabel?.text = self.contentJson![indexPath.row]["label"].stringValue
-        cell.contentTextField.placeholder = self.contentJson![indexPath.row]["content"].stringValue
+        cell.cellLabel?.text = self.contentJson![indexPath.row].label
+        cell.contentTextField.placeholder = self.contentJson![indexPath.row].content
         return cell
     }
     
