@@ -26,7 +26,7 @@ struct Form {
     var style    : Int
 }
 
-let staff = [
+let firstForm = [
     Form(type: .textFieldDefaultTypeForm, label: "Nom",content: "Stark", optional: false, order: 0, hidden: false, style: 0),
     Form(type: .textFieldDefaultTypeForm, label: "Prénom", content: "Ned", optional: false, order: 1, hidden: false, style: 0),
     Form(type: .textFieldMailTypeForm,    label: "Email", content: "nstark@gmail.com", optional: false, order: 2, hidden: false, style: 0),

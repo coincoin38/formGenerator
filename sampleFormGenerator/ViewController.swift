@@ -13,7 +13,14 @@ class ViewController: FirstViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         nibRegister()
-        self.contentJson = staff
+        self.contentJson = firstForm
+        
+        /*
+         let jsonDict = staff.map { $0.toJSONDict }
+         let jsonData = try! NSJSONSerialization.dataWithJSONObject(jsonDict, options: [])
+         let jsonString = NSString(data: jsonData, encoding: NSUTF8StringEncoding)
+         */
+
     }
 
     override func didReceiveMemoryWarning() {

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		131C445F1CF078C1007C3D23 /* StubsReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C445E1CF078C1007C3D23 /* StubsReader.swift */; };
 		131C44631CF0793C007C3D23 /* StubsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C44621CF0793C007C3D23 /* StubsConstants.swift */; };
 		131C44661CF07A5C007C3D23 /* FirstFormStub.json in Resources */ = {isa = PBXBuildFile; fileRef = 131C44651CF07A5C007C3D23 /* FirstFormStub.json */; };
 		131C44711CF08184007C3D23 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C446F1CF08184007C3D23 /* TextFieldTableViewCell.swift */; };
@@ -25,7 +24,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		131C445E1CF078C1007C3D23 /* StubsReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubsReader.swift; sourceTree = "<group>"; };
 		131C44621CF0793C007C3D23 /* StubsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubsConstants.swift; sourceTree = "<group>"; };
 		131C44651CF07A5C007C3D23 /* FirstFormStub.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FirstFormStub.json; sourceTree = "<group>"; };
 		131C446F1CF08184007C3D23 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
@@ -75,17 +73,8 @@
 				131C446A1CF08040007C3D23 /* Cells */,
 				131C44641CF079F1007C3D23 /* Stubs */,
 				131C44611CF0791B007C3D23 /* Constants */,
-				131C44601CF07911007C3D23 /* Readers */,
 			);
 			name = formGenerator;
-			sourceTree = "<group>";
-		};
-		131C44601CF07911007C3D23 /* Readers */ = {
-			isa = PBXGroup;
-			children = (
-				131C445E1CF078C1007C3D23 /* StubsReader.swift */,
-			);
-			name = Readers;
 			sourceTree = "<group>";
 		};
 		131C44611CF0791B007C3D23 /* Constants */ = {
@@ -296,7 +285,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				131C445F1CF078C1007C3D23 /* StubsReader.swift in Sources */,
 				135E91621CF9C3CB00D431EA /* SwitchTableViewCell.swift in Sources */,
 				131C44631CF0793C007C3D23 /* StubsConstants.swift in Sources */,
 				13E600461CF9857700E10826 /* FirstViewController.swift in Sources */,
